@@ -1,0 +1,92 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin: 0px 160px;
+}
+
+.header {
+    background-image: url("/hero image.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+}
+
+.nav-item:hover {
+    color: orange;
+    transition: color 0.3s linear;
+}
+.tel-number:hover{
+    color: orange;
+    transition: color 0.3s linear;
+}
+
+.card {
+    border-right: 1px white solid;
+    padding-right: 33px;
+    height: 50px;
+    position: relative;
+    margin-right: 30px;
+
+}
+
+.card-img {
+    position: absolute;
+    top: 18px;
+    right: 7px;
+    padding-right: 23px;
+}
+
+.tel-number {
+    text-decoration: none;
+    color: white;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.phone-text {
+    font-family: Open Sans;
+
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+}
+
+.btn {
+    font-weight: bold;
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    padding: 13px 18px;
+
+}
+.btn:hover{
+    background-color: orange;
+    transition: background-color 0.5s linear;
+}
